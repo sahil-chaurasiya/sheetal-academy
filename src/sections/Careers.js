@@ -50,7 +50,7 @@ export default function Careers() {
           transition={{ delay: 0.1, duration: 0.5 }}
           className="max-w-2xl mx-auto text-lg text-[#444] mb-14"
         >
-          At Sheetal Academy Uran, we believe in empowering people—whether they're students or part of our growing team.
+          At Sheetal Academy Uran, we believe in empowering people—whether they&apos;re students or part of our growing team.
           Explore exciting career opportunities and be a part of our mission.
         </motion.p>
 

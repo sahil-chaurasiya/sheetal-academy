@@ -27,7 +27,7 @@ export default function Contact() {
       </h2>
 
       <p className="text-white/80 max-w-xl mx-auto mb-10">
-        We're here to help you take the next step in your English journey. Reach out to us any time between <strong className="text-white">8 AM to 9 PM</strong>.
+        We&apos;re here to help you take the next step in your English journey. Reach out to us any time between <strong className="text-white">8 AM to 9 PM</strong>.
       </p>
 
       {/* 📞 Contact Info Cards */}

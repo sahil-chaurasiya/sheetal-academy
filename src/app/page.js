@@ -95,7 +95,7 @@ export default function Home() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.3 }}
             >
-              At <span className="font-semibold text-[#B22222]">Sheetal Academy, Uran</span> – we don’t just teach English. We build confident speakers, sharp thinkers, and future leaders.
+              At <span className="font-semibold text-[#B22222]">Sheetal Academy, Uran</span> – we don&apos;t just teach English. We build confident speakers, sharp thinkers, and future leaders.
             </motion.p>
 
             <motion.div

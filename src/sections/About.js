@@ -60,7 +60,7 @@ export default function About() {
           <span className="font-semibold text-[#ff3c38]">
             Sheetal Academy, Uran
           </span>{' '}
-          is not just an English-speaking institute – it's a transformation
+          is not just an English-speaking institute – it&apos;s a transformation
           center. With a proven legacy of excellence in English communication,
           personality development, and public speaking, we empower our students
           with confidence, clarity, and charisma.
@@ -70,7 +70,7 @@ export default function About() {
           variants={fadeInUp}
           className="text-base text-white/70 max-w-3xl mx-auto"
         >
-          Whether you're a student, job seeker, or professional — our mission
+          Whether you&apos;re a student, job seeker, or professional — our mission
           is simple: equip you with the fluency and mindset to thrive in any
           situation.
         </motion.p>
