@@ -106,13 +106,13 @@ export default function Header() {
       className="fixed top-0 left-0 w-full z-50 transition-colors duration-200 ease-out"
       style={{ backgroundColor }}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <div className="w-full px-6 sm:px-8 md:px-10 lg:px-16 xl:px-24 flex flex-wrap items-center justify-between gap-4 py-2">
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/logo.jpg"
             alt="Sheetal Academy Logo"
-            width={80}
-            height={100}
+            width={56}
+            height={56}
             priority
             className="rounded"
           />

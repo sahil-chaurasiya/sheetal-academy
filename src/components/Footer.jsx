@@ -67,8 +67,19 @@ export default function Footer() {
       </motion.div>
 
       {/* Bottom */}
-      <div className="mt-14 text-center text-xs text-gray-400">
-        &copy; {new Date().getFullYear()} Sheetal Academy, Uran. All rights reserved.
+      <div className="mt-14 text-center text-xs text-gray-400 space-y-1">
+        <p>&copy; {new Date().getFullYear()} Sheetal Academy, Uran. All rights reserved.</p>
+        <p className="italic text-[11px] text-gray-500">
+          Website developed by{' '}
+          <a
+            href="https://portfolio-next-sahil-s-projects-6c199edc.vercel.app/contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-white transition"
+          >
+            Sahil Chaurasiya
+          </a>. For technical issues, contact via portfolio.
+        </p>
       </div>
     </footer>
   );

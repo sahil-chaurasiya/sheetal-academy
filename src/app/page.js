@@ -54,7 +54,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="pt-24">
+      <main className="pt-10">
         {/* Hero Section */}
         <motion.section
           id="hero"
