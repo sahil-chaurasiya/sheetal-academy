@@ -77,7 +77,7 @@ export default function CTA() {
           </Link>
 
           <Link
-            href="/brochure.pdf"
+            href="/brochure-v2.pdf"
             target="_blank"
             className="border border-white text-white px-6 py-3 rounded-full hover:bg-white hover:text-red-800 transition-all"
           >

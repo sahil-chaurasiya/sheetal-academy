@@ -23,12 +23,12 @@ const fadeInUp = {
 const resources = [
   {
     title: 'Grammar Essentials (PDF)',
-    link: '/resources/grammar-essentials.pdf',
+    link: '/resources/grammar-essentials-v2.pdf',
     type: 'pdf',
   },
   {
     title: 'Top 50 Spoken English Phrases',
-    link: '/resources/english-phrases.pdf',
+    link: '/resources/english-phrases-v2.pdf',
     type: 'pdf',
   },
   {
@@ -38,7 +38,7 @@ const resources = [
   },
   {
     title: 'Vocabulary Builder (PDF)',
-    link: '/resources/vocabulary-builder.pdf',
+    link: '/resources/vocabulary-builder-v2.pdf',
     type: 'pdf',
   },
 ];

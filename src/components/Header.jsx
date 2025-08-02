@@ -26,10 +26,10 @@ export default function Header() {
       label: 'Resources',
       href: '/#resources',
       dropdown: [
-        { label: 'Grammar Essentials (PDF)', href: '/resources/grammar-essentials.pdf' },
-        { label: 'Top 50 Spoken English Phrases', href: '/resources/english-phrases.pdf' },
+        { label: 'Grammar Essentials (PDF)', href: '/resources/grammar-essentials-v2.pdf' },
+        { label: 'Top 50 Spoken English Phrases', href: '/resources/english-phrases-v2.pdf' },
         { label: 'Public Speaking Tips', href: 'https://www.youtube.com/watch?v=sample-public-speaking' },
-        { label: 'Vocabulary Builder (PDF)', href: '/resources/vocabulary-builder.pdf' }
+        { label: 'Vocabulary Builder (PDF)', href: '/resources/vocabulary-builder-v2.pdf' }
       ]
     },
     { label: 'Contact', href: '/#contact' },
