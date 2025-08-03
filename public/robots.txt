@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sheetal-academy.vercel.app/sitemap.xml

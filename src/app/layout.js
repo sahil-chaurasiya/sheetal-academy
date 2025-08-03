@@ -29,15 +29,15 @@ export const metadata = {
     'Interview Preparation',
     'Public Speaking',
   ],
-  authors: [{ name: 'Sheetal Academy, Uran', url: 'https://sheetalacademyuran.in' }],
+  authors: [{ name: 'Sheetal Academy, Uran', url: 'http://sheetal-academy.vercel.app/' }],
   creator: 'Sheetal Academy',
   robots: 'index, follow',
-  metadataBase: new URL('https://sheetalacademyuran.in'),
+  metadataBase: new URL('http://sheetal-academy.vercel.app/'),
   openGraph: {
     title: 'Sheetal Academy, Uran | Speak English Fluently with Confidence',
     description:
       'Join Sheetal Academy in Uran for expert-led English speaking and career skill training. Trusted by 1000+ students. 8 AM – 9 PM daily.',
-    url: 'https://sheetalacademyuran.in',
+    url: 'http://sheetal-academy.vercel.app/',
     siteName: 'Sheetal Academy Uran',
     images: [
       {
