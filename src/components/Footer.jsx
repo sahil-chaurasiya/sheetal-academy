@@ -72,7 +72,7 @@ export default function Footer() {
         <p className="italic text-[11px] text-gray-500">
           Website developed by{' '}
           <a
-            href="https://portfolio-next-sahil-s-projects-6c199edc.vercel.app/contact"
+            href="https://portfolio-next-eight-rose.vercel.app/contact"
             target="_blank"
             rel="noopener noreferrer"
             className="underline hover:text-white transition"
