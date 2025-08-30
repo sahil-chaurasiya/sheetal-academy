@@ -19,6 +19,7 @@ export const metadata = {
     'Master fluent English with Sheetal Academy, Uran. Join Navi Mumbai’s trusted institute for spoken English, personality development, and job readiness. Enroll today and grow your confidence!',
   keywords: [
     'Sheetal Academy Uran',
+    'Sheetal Academy',
     'English Speaking Classes Uran',
     'Spoken English Navi Mumbai',
     'Personality Development',
