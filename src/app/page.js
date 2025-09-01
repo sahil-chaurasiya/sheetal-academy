@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 import Header from '../components/Header';
 import About from '../sections/About';
@@ -14,14 +15,27 @@ import Footer from '../components/Footer';
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
+  const pathname = usePathname();
 
   useEffect(() => {
     const timeout = setTimeout(() => {
       setLoading(false);
     }, 500); // Loader delay
-
     return () => clearTimeout(timeout);
   }, []);
+
+  // 👇 Handle hash scroll after loader is gone
+  useEffect(() => {
+    if (!loading && typeof window !== 'undefined') {
+      const hash = window.location.hash;
+      if (hash) {
+        const el = document.querySelector(hash);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    }
+  }, [loading, pathname]);
 
   if (loading) {
     return (
@@ -35,7 +49,6 @@ export default function Home() {
           <div className="absolute inset-0 flex items-center justify-center text-[#8B0000] text-3xl font-bold font-cursive">
             SA
           </div>
-
         </div>
 
         {/* Text */}
@@ -85,7 +98,9 @@ export default function Home() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2 }}
             >
-              <span className="font-[cursive] text-5xl md:text-7xl text-[#DC143C]">Redefining</span>{' '}
+              <span className="font-[cursive] text-5xl md:text-7xl text-[#DC143C]">
+                Redefining
+              </span>{' '}
               <span className="text-black font-sans">English Fluency</span>
             </motion.h1>
 
@@ -95,7 +110,9 @@ export default function Home() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.3 }}
             >
-              At <span className="font-semibold text-[#B22222]">Sheetal Academy, Uran</span> – we don&apos;t just teach English. We build confident speakers, sharp thinkers, and future leaders.
+              At <span className="font-semibold text-[#B22222]">Sheetal Academy, Uran</span> – we
+              don&apos;t just teach English. We build confident speakers, sharp thinkers, and future
+              leaders.
             </motion.p>
 
             <motion.div

@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import EventList from '../components/EventList';
+import Link from 'next/link';
 
 export default function Events() {
   return (
@@ -20,6 +21,15 @@ export default function Events() {
         </h2>
 
         <EventList />
+
+        {/* View Past Events Button */}
+        <div className="mt-10">
+          <Link href="/past-events">
+            <button className="px-6 py-3 rounded-2xl bg-[#ff3c38] hover:bg-[#e63531] transition text-white font-semibold shadow-lg">
+              View Past Events
+            </button>
+          </Link>
+        </div>
       </div>
     </section>
   );

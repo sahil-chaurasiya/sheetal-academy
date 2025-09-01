@@ -38,7 +38,7 @@ export default function AdminPage() {
           Go to Home
         </button>
         <button
-          onClick={() => router.push('/events')}
+          onClick={() => router.push('/#events')}
           className="px-4 py-2 rounded bg-green-100 text-green-800 hover:bg-green-200"
         >
           View Events Page

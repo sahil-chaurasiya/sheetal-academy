@@ -1,4 +1,5 @@
 'use client';
+import Link from "next/link";
 import { useEffect, useState } from 'react';
 
 export default function EventForm() {
@@ -59,17 +60,19 @@ export default function EventForm() {
     if (!eventToDelete) return;
 
     try {
-      const res = await fetch(`/api/events/${eventToDelete}`, { method: 'DELETE' });
+      const res = await fetch(`/api/events?id=${eventToDelete}`, { method: 'DELETE' });
       if (res.ok) {
         setEvents(events.filter(e => e._id !== eventToDelete));
         setEventToDelete(null);
       } else {
-        alert('Failed to delete event.');
+        const err = await res.json();
+        alert(err.error || 'Failed to delete event.');
       }
     } catch {
       alert('Error deleting event.');
     }
   };
+
 
   return (
     <div className="mt-8">
@@ -140,7 +143,16 @@ export default function EventForm() {
                   <p className="text-sm font-semibold mt-1 text-[crimson]">
                     Registrations: {event.registrationCount || 0}
                   </p>
+
+                  {/* ✅ New Link to Registrations Page */}
+                  <Link
+                    href={`/admin/events/${event._id}`}
+                    className="inline-block mt-2 text-blue-600 hover:underline text-sm"
+                  >
+                    View Registrations →
+                  </Link>
                 </div>
+
                 <button
                   onClick={() => confirmDelete(event._id)}
                   className="ml-4 bg-red-500 text-white px-3 py-1 rounded hover:bg-red-700 text-sm"
@@ -151,6 +163,7 @@ export default function EventForm() {
             </li>
           ))}
         </ul>
+
       )}
 
       {/* Delete confirmation modal */}

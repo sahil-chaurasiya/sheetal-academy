@@ -6,7 +6,7 @@ import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-export default function EventList() {
+export default function EventList({ type = "upcoming" }) {
   const [events, setEvents] = useState([]);
   const [selected, setSelected] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -15,14 +15,21 @@ export default function EventList() {
     fetch('/api/events')
       .then(res => res.json())
       .then(data => {
-        setEvents(data);
+        const today = new Date();
+        const filtered = data.filter(event => {
+          const eventDate = new Date(event.date);
+          return type === "upcoming"
+            ? eventDate >= today
+            : eventDate < today;
+        });
+        setEvents(filtered);
         setLoading(false);
       })
       .catch(err => {
         console.error("Failed to load events:", err);
         setLoading(false);
       });
-  }, []);
+  }, [type]);
 
   return (
     <div className="w-full mx-auto space-y-10">
@@ -32,7 +39,9 @@ export default function EventList() {
 
       {!loading && events.length === 0 && (
         <p className="text-gray-300 text-lg text-center">
-          No upcoming events at the moment. Please check back later!
+          {type === "upcoming"
+            ? "No upcoming events at the moment. Please check back later!"
+            : "No past events found."}
         </p>
       )}
 
