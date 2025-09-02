@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     question: "What are the timings for classes?",
-    answer: "We are open from 8 AM to 10 PM. You can choose a convenient batch that fits your schedule."
+    answer: "We are open from 8 AM to 9 PM. You can choose a convenient batch that fits your schedule."
   },
   {
     question: "Do you provide demo sessions?",

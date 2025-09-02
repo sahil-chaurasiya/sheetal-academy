@@ -68,21 +68,22 @@ export default function EventList({ type = "upcoming" }) {
               <SwiperSlide key={event._id}>
                 <div className="bg-white/10 backdrop-blur border border-white/20 p-6 rounded-2xl shadow-lg hover:scale-[1.03] transition duration-300 text-left h-full flex flex-col justify-between">
                   <div>
-                    <h3 className="text-2xl font-bold text-white mb-2">
-                      {event.title}
-                    </h3>
+                    <h3 className="text-2xl font-bold text-white mb-2">{event.title}</h3>
                     <p className="text-gray-200 mb-3">{event.description}</p>
                     <p className="text-sm text-red-200 mb-4">
-                      📅 <strong>{new Date(event.date).toDateString()}</strong> | 💰{' '}
-                      <strong>₹{event.price || 'Free'}</strong>
+                      📅 <strong>{new Date(event.date).toDateString()}</strong> | 💰 <strong>₹{event.price || 'Free'}</strong>
                     </p>
                   </div>
-                  <button
-                    onClick={() => setSelected(event._id)}
-                    className="bg-[#ff3c38] hover:bg-[#e3322e] text-white px-6 py-2 rounded-full font-semibold transition"
-                  >
-                    Register
-                  </button>
+
+                  {/* ✅ Only show Register button for upcoming events */}
+                  {type !== "past" && (
+                    <button
+                      onClick={() => setSelected(event._id)}
+                      className="bg-[#ff3c38] hover:bg-[#e3322e] text-white px-6 py-2 rounded-full font-semibold transition"
+                    >
+                      Register
+                    </button>
+                  )}
                 </div>
               </SwiperSlide>
             ))}
