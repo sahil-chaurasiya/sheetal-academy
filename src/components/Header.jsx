@@ -33,7 +33,6 @@ export default function Header() {
       ]
     },
     { label: 'Contact', href: '/#contact' },
-    { label: 'Careers', href: '/careers' }
   ];
 
   useEffect(() => {

@@ -28,7 +28,7 @@ export default function Careers() {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
 
       <section
         id="careers"
