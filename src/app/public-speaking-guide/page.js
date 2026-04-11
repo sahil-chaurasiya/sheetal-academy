@@ -12,7 +12,7 @@ import SubPageLayout from '@/components/SubPageLayout';
 
 export const metadata = {
   metadataBase: new URL('https://sheetal-academy.vercel.app'),
-  title: 'Public Speaking Course in Uran | Stage Speaking, GD, Debate — Sheetal Academy',
+  title: 'Public Speaking Classes in Uran | GD, Debate & Stage — Sheetal Academy',
   description:
     'Master public speaking, stage speaking, Group Discussion, and debate at Sheetal Academy, Uran. 11 types of speaking practice with expert mentors from diverse fields. Overcome stage fear. Individual coaching since 1989.',
   keywords: [
@@ -32,7 +32,7 @@ export const metadata = {
   alternates: { canonical: 'https://sheetal-academy.vercel.app/public-speaking-guide' },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Public Speaking Course in Uran | Stage Speaking, GD, Debate — Sheetal Academy',
+    title: 'Public Speaking Classes in Uran | GD, Debate & Stage — Sheetal Academy',
     description:
       'Sheetal Academy Uran — 11 types of speaking practice, stage sessions, debates, and Talk Shows. Overcome stage fear and become a confident public speaker.',
     url: 'https://sheetal-academy.vercel.app/public-speaking-guide',

@@ -11,7 +11,7 @@ import SubPageLayout from '@/components/SubPageLayout';
 
 export const metadata = {
   metadataBase: new URL('https://sheetal-academy.vercel.app'),
-  title: 'Spoken English Course — Beginner to Fluent | Sheetal Academy Uran',
+  title: 'Spoken English Course in Uran | Beginner to Fluent — Sheetal Academy',
   description:
     "Whether you're a complete beginner or want to refine your fluency, Sheetal Academy's structured spoken English course takes you from zero to confident — with individual coaching, no batch system, and 100% guarantee.",
   keywords: [
@@ -31,7 +31,7 @@ export const metadata = {
   alternates: { canonical: 'https://sheetal-academy.vercel.app/english-speaking-classes' },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Spoken English Course — Beginner to Fluent | Sheetal Academy Uran',
+    title: 'Spoken English Course in Uran | Beginner to Fluent — Sheetal Academy',
     description:
       "From beginner grammar to confident public speaking — Sheetal Academy's individual-attention spoken English course delivers real fluency with a 100% guarantee.",
     url: 'https://sheetal-academy.vercel.app/english-speaking-classes',

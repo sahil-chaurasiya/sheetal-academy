@@ -12,7 +12,7 @@ import SubPageLayout from '@/components/SubPageLayout';
 
 export const metadata = {
   metadataBase: new URL('https://sheetal-academy.vercel.app'),
-  title: 'Spoken English Classes in Navi Mumbai | Sheetal Academy — Uran Branch',
+  title: 'Best Spoken English Classes in Navi Mumbai | Sheetal Academy',
   description:
     'Looking for spoken English classes in Navi Mumbai? Sheetal Academy in Uran serves all of Navi Mumbai — Panvel, Belapur, Nerul, Kharghar, and more. Individual coaching, no batch, 100% guarantee. Since 1989.',
   keywords: [
@@ -32,7 +32,7 @@ export const metadata = {
   alternates: { canonical: 'https://sheetal-academy.vercel.app/spoken-english-navi-mumbai' },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Spoken English Classes in Navi Mumbai | Sheetal Academy — Uran Branch',
+    title: 'Best Spoken English Classes in Navi Mumbai | Sheetal Academy',
     description:
       "Navi Mumbai's most trusted English speaking institute in Uran — individual coaching, no batch, flexible timings, 100% guarantee since 1989.",
     url: 'https://sheetal-academy.vercel.app/spoken-english-navi-mumbai',

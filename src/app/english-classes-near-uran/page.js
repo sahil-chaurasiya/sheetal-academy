@@ -12,7 +12,7 @@ import SubPageLayout from '@/components/SubPageLayout';
 
 export const metadata = {
   metadataBase: new URL('https://sheetal-academy.vercel.app'),
-  title: 'English Classes Near Me — Uran & Raigad District | Sheetal Academy',
+  title: 'English Classes Near Uran | Raigad District — Sheetal Academy',
   description:
     'Searching for English classes near you in Uran, Panvel, Alibag, Pen, Khopoli, or anywhere in Raigad? Sheetal Academy is the #1 English speaking institute in the region — individual coaching, 100% guarantee, since 1989.',
   keywords: [
@@ -35,7 +35,7 @@ export const metadata = {
   alternates: { canonical: 'https://sheetal-academy.vercel.app/english-classes-near-uran' },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'English Classes Near Me — Uran & Raigad District | Sheetal Academy',
+    title: 'English Classes Near Uran | Raigad District — Sheetal Academy',
     description:
       'Sheetal Academy in Uran serves Raigad district and Navi Mumbai with the best individual English coaching since 1989. Walk in or learn online.',
     url: 'https://sheetal-academy.vercel.app/english-classes-near-uran',

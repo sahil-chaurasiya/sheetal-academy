@@ -12,7 +12,7 @@ import SubPageLayout from '@/components/SubPageLayout';
 
 export const metadata = {
   metadataBase: new URL('https://sheetal-academy.vercel.app'),
-  title: 'Communication Skills Course in Uran | Professional English — Sheetal Academy',
+  title: 'Communication Skills Classes in Uran | Sheetal Academy',
   description:
     'Build powerful professional communication skills at Sheetal Academy, Uran. Business English, public speaking, GD, debate, email writing, telephone etiquette, and more. Trusted corporate communication training since 1989.',
   keywords: [
@@ -32,7 +32,7 @@ export const metadata = {
   alternates: { canonical: 'https://sheetal-academy.vercel.app/communication-skills' },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Communication Skills Course in Uran | Professional English — Sheetal Academy',
+    title: 'Communication Skills Classes in Uran | Sheetal Academy',
     description:
       'Corporate English, public speaking, GD, business communication, and professional etiquette at Sheetal Academy Uran. Individual coaching since 1989.',
     url: 'https://sheetal-academy.vercel.app/communication-skills',

@@ -12,7 +12,7 @@ import SubPageLayout from '@/components/SubPageLayout';
 
 export const metadata = {
   metadataBase: new URL('https://sheetal-academy.vercel.app'),
-  title: 'Spoken English Classes Near Panvel | Best English Institute — Sheetal Academy',
+  title: 'Spoken English Classes in Panvel | Best English Institute — Sheetal Academy',
   description:
     'The best English speaking classes near Panvel — Sheetal Academy in Uran. Just 20–30 min from Panvel and New Panvel. Individual attention, no batch, flexible timings, 100% guarantee. Since 1989.',
   keywords: [
@@ -32,7 +32,7 @@ export const metadata = {
   alternates: { canonical: 'https://sheetal-academy.vercel.app/spoken-english-panvel' },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Spoken English Classes Near Panvel | Best English Institute — Sheetal Academy',
+    title: 'Spoken English Classes in Panvel | Best English Institute — Sheetal Academy',
     description:
       "Nearest and most trusted English speaking institute to Panvel — Sheetal Academy Uran. Individual coaching, no batch, 100% guarantee since 1989.",
     url: 'https://sheetal-academy.vercel.app/spoken-english-panvel',
