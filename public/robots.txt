@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block admin/private routes from indexing
+Disallow: /admin
+Disallow: /admin-login
+Disallow: /api/
+
+Sitemap: https://sheetal-academy.vercel.app/sitemap.xml

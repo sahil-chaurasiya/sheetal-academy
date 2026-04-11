@@ -1,0 +1,115 @@
+/* ✅ Google Fonts - must be FIRST */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .animate-gradient {
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+  }
+
+  @keyframes gradientMove {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  /* Shimmer on cards */
+  .shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+  .shimmer::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(105deg, transparent 40%, rgba(255,255,255,0.06) 50%, transparent 60%);
+    transform: translateX(-100%);
+    transition: transform 0.6s ease;
+  }
+  .shimmer:hover::after {
+    transform: translateX(100%);
+  }
+
+  /* Red glow on focus/hover */
+  .glow-red {
+    box-shadow: 0 0 0 0 rgba(220,20,60,0);
+    transition: box-shadow 0.3s ease;
+  }
+  .glow-red:hover {
+    box-shadow: 0 0 24px 4px rgba(220,20,60,0.25);
+  }
+
+  /* Subtle grain texture overlay for depth */
+  .grain::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+    border-radius: inherit;
+  }
+
+  /* Diagonal accent stripe */
+  .stripe-accent {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 10px,
+      rgba(220,20,60,0.04) 10px,
+      rgba(220,20,60,0.04) 20px
+    );
+  }
+}
+
+@keyframes slideDown {
+  0%   { opacity: 0; transform: translateY(-1rem); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-slideDown { animation: slideDown 0.3s ease-out forwards; }
+
+/* Pulse dot animation for "live" indicator */
+@keyframes pulseDot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(1.4); }
+}
+.pulse-dot { animation: pulseDot 2s ease-in-out infinite; }
+
+/* Slow spin for loader */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.animate-spin-slow { animation: spin-slow 1.4s linear infinite; }
+
+/* Floating badge bob */
+@keyframes floatBob {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-6px); }
+}
+.float-bob { animation: floatBob 3s ease-in-out infinite; }
+
+/* Underline grow on hover for links */
+.underline-grow {
+  position: relative;
+}
+.underline-grow::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #DC143C;
+  transition: width 0.3s ease;
+}
+.underline-grow:hover::after { width: 100%; }
