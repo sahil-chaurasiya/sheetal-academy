@@ -110,7 +110,7 @@ export const metadata = {
     title: 'Sheetal Academy Uran | English Speaking Classes & Personality Development',
     description: "Uran's most trusted English institute since 1989. Spoken English, personality development, corporate training. Open Mon–Sat, 8 AM–9 PM.",
     images: ['/Card.png'],
-    creator: '@sheetalacademyuran',
+    creator: '@sheetal_academy_uran',
   },
 };
 
@@ -127,7 +127,7 @@ const organizationSchema = {
   priceRange: '₹₹',
   telephone: '+91-9967286368',
   sameAs: [
-    'https://instagram.com/sheetalacademyuran',
+    'https://instagram.com/sheetal_academy_uran',
     'https://wa.me/919967286368',
   ],
   description:

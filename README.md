@@ -73,7 +73,7 @@ The website is **fully developed** with the following sections:
 ### 🎯 Key Functionalities
 - 📞 Direct phone contact: **+91 99672 86368**
 - 📍 Location information: **Uran, Navi Mumbai**
-- 📱 Social media integration: **@sheetalacademyuran**
+- 📱 Social media integration: **@sheetal_academy_uran**
 - 📝 Contact form for inquiries
 - 💰 Course registration: **₹2,999/-**
 - 🎁 Free demo booking
@@ -207,7 +207,7 @@ The website has achieved strong search visibility:
 
 **Phone:** +91 99672 86368  
 **Location:** Sheetal Academy, Uran, Navi Mumbai – 400702  
-**Instagram:** [@sheetalacademyuran](https://instagram.com/sheetalacademyuran)  
+**Instagram:** [@sheetal_academy_uran](https://instagram.com/sheetal_academy_uran)  
 **Hours:** 8 AM to 9 PM (Daily)
 
 ---

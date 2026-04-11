@@ -64,8 +64,8 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-2">
               <Instagram size={13} className="text-[#ff3c38]" />
-              <a href="https://instagram.com/sheetalacademyuran" target="_blank" rel="noopener noreferrer" className="hover:text-white transition underline-grow">
-                @sheetalacademyuran
+              <a href="https://instagram.com/sheetal_academy_uran" target="_blank" rel="noopener noreferrer" className="hover:text-white transition underline-grow">
+                @sheetal_academy_uran
               </a>
             </li>
           </ul>

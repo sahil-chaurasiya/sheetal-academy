@@ -19,7 +19,7 @@ export default function Contact() {
 
   const contactCards = [
     { icon: <Phone size={18} className="text-[#ff3c38]" />, label: 'Uran Branch', value: '+91 99672 86368', href: 'tel:+919967286368', sub: 'Mon–Sat · 8 AM–9 PM' },
-    { icon: <Instagram size={18} className="text-[#ff3c38]" />, label: 'Instagram', value: '@sheetalacademyuran', href: 'https://instagram.com/sheetalacademyuran', sub: 'Follow for updates', external: true },
+    { icon: <Instagram size={18} className="text-[#ff3c38]" />, label: 'Instagram', value: '@sheetal_academy_uran', href: 'https://instagram.com/sheetal_academy_uran', sub: 'Follow for updates', external: true },
   ];
 
   const inputClass =
