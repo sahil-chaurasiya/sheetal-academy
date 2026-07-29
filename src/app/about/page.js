@@ -1,15 +1,6 @@
 import SubPageLayout from '@/components/SubPageLayout';
 
-// ─── AUDIT FIXES APPLIED ──────────────────────────────────────────────────────
-// 1. Title changed: was generic "About" — now targets "about sheetal academy uran" 
-//    AND captures "best english institute uran since 1989" intent
-// 2. Added founder/trainer profile section (E-E-A-T — Experience + Expertise)
-// 3. Added milestone timeline (E-E-A-T — Authority with historical proof)
-// 4. Added exact student count / transformation metrics (Trust)
-// 5. Added local area references (Uran, Kamtha Road, Raigad, Navi Mumbai)
-// 6. Added CTA at mid-page — page previously had only one CTA at the very bottom
-// 7. Description rewritten for CTR: specifics over generic claims
-// ──────────────────────────────────────────────────────────────────────────────
+
 
 export const metadata = {
   metadataBase: new URL('https://sheetal-academy.vercel.app'),

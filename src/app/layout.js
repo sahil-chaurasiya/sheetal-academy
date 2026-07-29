@@ -128,6 +128,7 @@ const organizationSchema = {
   telephone: '+91-9967286368',
   sameAs: [
     'https://instagram.com/sheetal_academy_uran',
+    'https://www.facebook.com/sheetalacademyuran',
     'https://wa.me/919967286368',
   ],
   description:

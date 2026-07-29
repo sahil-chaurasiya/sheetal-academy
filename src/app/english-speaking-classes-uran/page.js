@@ -134,7 +134,7 @@ const whoCanJoin = [
   'Business owners serving English-speaking clients',
   'Homemakers building confidence and independence',
   'Marathi and vernacular-medium students from Uran town',
-  'Call centre and JNPT port area professionals',
+  'Call centre, JNPT port, and ONGC professionals',
   'Anyone aged 4 to 70 — no age bar, ever',
 ];
 
@@ -154,11 +154,11 @@ const faqs = [
   },
   {
     q: 'Where exactly is Sheetal Academy located in Uran?',
-    a: 'Sheetal Academy is located at Shop no 43, Shreeraj Nagar Apartment, Kamtha Road, Uran — 400 702, near Uran city centre. It is easily accessible from the main Uran market area, Kamtha Road, and the JNPT corridor. Students from Panvel and New Panvel commute regularly.',
+    a: 'Sheetal Academy is located at Shop no 43, Shreeraj Nagar Apartment, Kamtha Road, Uran — 400 702, near Uran city centre. It is easily accessible from the main Uran market area, Kamtha Road, and the JNPT corridor. Students from Pirkon, Koproli, and Jasai commute regularly.',
   },
   {
     q: 'How long does it take to learn spoken English at Sheetal Academy?',
-    a: 'The standard course is 6 months at 1 hour per day, Monday to Saturday. Students who already know grammar can start from Step 2 and complete in 3–4 months. There is no rigid timeline — you progress at your own pace.',
+    a: 'The standard course is 6 months at 1 hour per day, Monday to Saturday. Students who already know grammar can start from Step 2 and complete in 3–4 months. There is no rigid timeline — you progress at your own pace, and every enrolment comes with a 1-year course validity, so you have plenty of time to complete it comfortably.',
   },
   {
     q: 'Is there a batch system or group classes at Sheetal Academy Uran?',
